@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kart name              = "T-Bone"
+      version           = "3"
+      model-file        = "tbone.spm"
+      icon-file         = "tbone_icon.png"
+      minimap-icon-file = "tbone_icon.png"
+      shadow-file       = "tbone_shadow.png"
+      type              = "medium"
+      center-shift      = "-0.05"
+      groups            = "Add-Ons"
+      rgb               = "0.35 0.06 0.06" >
+  <sounds engine = "large">
+      <skid name="default"/>
+  </sounds>
+  <animations left = "0"
+              straight = "19"
+              right = "39"
+              backpedal-left = "49"
+              backpedal = "59"
+              backpedal-right = "69"
+              start-winning = "79"
+              start-winning-loop = "119"
+              end-winning = "199"
+              end-winning-straight = "219"
+              start-losing = "239"
+              start-losing-loop = "279"
+              end-losing = "339"
+              end-losing-straight = "359"
+              start-jump = "379"
+              start-jump-loop = "399"
+              end-jump = "459"
+              selection-start = "479"
+              selection-end = "559"/>
+  <wheels>
+    <front-left position = "-0.380000 0.160000 0.380000"
+                 model    = "wheel-front-left.spm"       />
+    <front-right position = "0.380000 0.160000 0.380000"
+                 model    = "wheel-front-right.spm"       />
+    <rear-left position = "-0.420000 0.160000 -0.450000"
+                 model    = "wheel-rear-left.spm"       />
+    <rear-right position = "0.420000 0.160000 -0.450000"
+                 model    = "wheel-rear-right.spm"       />
+  </wheels>
+  <nitro-emitter>
+    <nitro-emitter-a position = "0.160000 0.300000 -0.700000" />
+    <nitro-emitter-b position = "-0.160000 0.300000 -0.700000" />
+  </nitro-emitter>
+  <headlights>
+    <object position="-0.200000 0.300000 0.680000"
+            rotation="0.000000 -0.000000 0.000000"
+            scale="1.200000 0.800000 0.500000"
+            color="255 245 200"
+            model="HeadlightLeft.spm"
+    />
+    <object position="0.200000 0.300000 0.680000"
+            rotation="0.000000 -0.000000 0.000000"
+            scale="1.200000 0.800000 0.500000"
+            color="255 245 200"
+            model="HeadlightRight.spm"
+    />
+  </headlights>
+  <lean max="3.0"/>
+  <exhaust file="kart_exhaust.xml"/>
+</kart>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="kart_body.png" gloss-map="kart_body_gloss.png"/>
+  <material name="kart_chassis.png" gloss-map="chassis_gloss.png"/>
+  <material name="steak_meat.png" gloss-map="steak_gloss.png"/>
+  <material name="wheel.png" gloss-map="wheel_gloss.png"/>
+  <material name="bone.png" gloss-map="steak_gloss.png"/>
+  <material name="license_plate.png"/>
+  <material name="seat.png"/>
+  <material name="steering.png"/>
+  <material name="exhaust.png"/>
+  <material name="headlight.png"/>
+</materials>
