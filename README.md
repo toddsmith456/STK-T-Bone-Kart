@@ -166,9 +166,14 @@ blender --background --python scripts/render_eevee.py
 
 ## Licensing
 
-* **Code** (`*.py`): MIT — do as you wish.
-* **Kart assets** (blend, spm, png, xml): **CC-BY-SA 4.0** — same as STK’s own karts. Attribute “T-Bone kart by Arena.ai (2026)”, share-alike.
-* If you redistribute the kart, please keep the `CREDITS` stub in the folder.
+**MIT License — Copyright (c) 2026 toddsmith456**
+
+All files in this repository — code (`*.py`), kart assets (blend, spm, png, xml), renders, and documentation — are licensed under the **MIT License**. See [`LICENSE`](../LICENSE) and `tbone/LICENSE`.
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies, with the sole requirement that the original copyright notice and permission notice are included in all copies or substantial portions.
+
+* Full text: [`LICENSE`](./LICENSE)
+* STK addon copy: [`tbone/LICENSE`](./tbone/LICENSE)
 
 ---
 
