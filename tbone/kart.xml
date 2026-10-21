@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kart name              = "T-Bone"
       version           = "3"
-      model-file        = "tbone.spm"
+      model-file        = "t-bone.spm"
       icon-file         = "tbone_icon.png"
       minimap-icon-file = "tbone_icon.png"
       shadow-file       = "tbone_shadow.png"
